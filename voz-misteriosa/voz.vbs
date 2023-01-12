@@ -7,7 +7,6 @@ Do Until f.AtEndOfStream
   palabra = f.ReadLine
   CreateObject("SAPI.SpVoice").Speak(palabra)
   wscript.sleep 500
-  window.close
 Loop
 
 f.Close
